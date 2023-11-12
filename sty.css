@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background-color: #f5f5f5;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+td:hover {
+    background-color: #ddd;
+}
+
+#display {
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 24px;
+}
